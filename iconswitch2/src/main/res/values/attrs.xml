@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="IconSwitch2">
+        <attr name="icon_left" format="reference" />
+        <attr name="icon_right" format="reference" />
+
+        <attr name="icon_size" format="dimension" />
+
+        <attr name="background_color" format="color" />
+        <attr name="thumb_color_left" format="color" />
+        <attr name="thumb_color_right" format="color" />
+        <attr name="inactive_tint_icon_left" format="color" />
+        <attr name="inactive_tint_icon_right" format="color" />
+        <attr name="active_tint_icon_left" format="color" />
+        <attr name="active_tint_icon_right" format="color" />
+
+        <attr name="default_selection" format="enum">
+            <enum name="left" value="0" />
+            <enum name="right" value="1" />
+        </attr>
+
+    </declare-styleable>
+</resources>
